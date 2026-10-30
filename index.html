@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>hw-8</title>
+    <link rel="stylesheet" href="./src/style.css" />
+  </head>
+  <body>
+    <div class="container" id="bookmarkApp">
+      <h1>Закладки</h1>
+      <input type="text" id="bookmarkInput" placeholder="URL" />
+      <button id="addBookmarkBtn">Додати</button>
+      <ul id="bookmarkList"></ul>
+    </div>
+
+    <div class="container" id="formApp">
+      <h1>Форма</h1>
+      <input type="text" id="username" placeholder="Логін" />
+      <input type="password" id="password" placeholder="Пароль" />
+      <button id="saveBtn">Зберегти</button>
+    </div>
+
+    <div class="container" id="productApp">
+      <h1>Продукти</h1>
+      <input type="text" id="searchBox" placeholder="Шукати продукт..." />
+      <ul class="product-list" id="productList"></ul>
+    </div>
+    <script type="module" src="/src/main.js"></script>
+  </body>
+</html>
